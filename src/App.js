@@ -158,6 +158,15 @@ function App() {
             </ul>
           </p>
         </div>
+        <br />
+        <div className="arrow-3">
+          <a href="#contact">
+            <i className="arrow down"></i>
+          </a>
+        </div>
+      </div>
+      <div id="contact" className="contact">
+        
       </div>
     </div>
   );

@@ -111,10 +111,17 @@ i {
 
 .arrow-2 {
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin-top: 125px;
 }
 
+.arrow-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 125x;
+}
 .arrow {
   border: solid RGB(146, 139, 97);
   border-width: 0 3px 3px 0;
@@ -227,10 +234,3 @@ p {
   height: 650px;
 }
 
-ul {
-  text-align: left;
-}
-
-li {
-  text-align: left;
-}
