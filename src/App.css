@@ -1,38 +1,132 @@
 .App {
-  text-align: center;
+  background-color: RGB(200, 201, 172);
+  height: 100%;
+  padding-top: 2%;
+  padding-left: 8%;
+  padding-right: 8%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  height: 8%;
 }
 
-.App-link {
-  color: #61dafb;
+h1 {
+  color: RGB(9, 8, 8);
+  font-family: 'Lora', serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 300px;
+}
+
+a {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 1.25rem;
+}
+
+/* unvisited link */
+a:link {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  color: RGB(146, 139, 97);
+}
+
+/* visited link */
+a:visited {
+  color: RGB(9, 8, 8);
+}
+
+/* mouse over link */
+a:hover {
+  color: RGB(9, 8, 8);
+}
+
+.main {
+  height: 150px;
+  /* height: 100vh; */
+  /* background-color: RGB(231, 226, 191);
+  margin-bottom: 2%;
+  border-radius: 12px;
+  border: 2px solid RGB(146, 139, 97);
+  height: 100%; */
+}
+
+.output {
+  margin-top: 250px;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+    color:RGB(9, 8, 8);
+    font-size: 1.5rem;
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* Cursor Styling */
+  
+  .cursor::after {
+    content:'';
+    display:inline-block;
+    margin-left:3px;
+    background-color:RGB(146, 139, 97);
+    animation-name:blink;
+    animation-duration:0.75s;
+    animation-iteration-count: infinite;
   }
+  h2.cursor::after {
+    height:48px;
+    width:26px;
+  }
+  h3.cursor::after {
+    height:26px;
+    width:12px;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity:1;
+    }
+    49% {
+      opacity:1;
+    }
+    50% {
+      opacity:0;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+
+
+i {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+}
+
+.arrow {
+  border: solid RGB(146, 139, 97);
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.work {
+  border: 1px solid red;
+  height: 100vh;
+  margin-top: 50%;
 }
