@@ -1,9 +1,13 @@
 .App {
+  height: 100%;
+}
+.container {
   background-color: RGB(200, 201, 172);
   height: 100%;
   padding-top: 2%;
   padding-left: 8%;
   padding-right: 8%;
+  padding-bottom: 250px;
 }
 
 header {
@@ -120,7 +124,7 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 125x;
+  margin-top: 150px;
 }
 .arrow {
   border: solid RGB(146, 139, 97);
@@ -234,3 +238,39 @@ p {
   height: 650px;
 }
 
+.contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 500px;
+  max-width: 100%;
+  overflow: inherit;
+  background-color: RGB(146, 139, 97);
+  padding: 200px 50px 100px 50px;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 45%;
+  padding: 25px 25px 25px 25px;
+  margin-left: 25px;
+  height: 300px;
+}
+
+.form {
+  padding: 50px 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 45%;
+  height: 300px;
+  margin-right: 25px;
+}
+
+#inputID::placeholder {
+  color: rgb(9, 8, 8);
+  opacity: 5;
+}
