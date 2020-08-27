@@ -117,14 +117,14 @@ i {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 125px;
+  margin-top: 50px;
 }
 
 .arrow-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 .arrow {
   border: solid RGB(146, 139, 97);
@@ -153,9 +153,21 @@ i {
   margin-top: 50px;
 }
 
+.img-rvc {
+  /* margin-top: 15px;
+  margin-left: 25px; */
+  /* margin-right: 50px; */
+  /* height: 350px; */
+  object-fit: cover;
+  object-position: 140% 65%;
+  width: 100%;
+  border-radius: 12px;
+}
+
 .img-placeholder-1 {
-  background-color: rgb(231, 226, 191);
-  height: 500px;
+  /* background-color: rgb(231, 226, 191); */
+  padding: 15px 15px 15px 15px;
+  height: 250px;
   border-radius: 12px;
   width: 50%;
   margin-left: 50px;
@@ -176,8 +188,19 @@ i {
   margin-top: 50px;
 }
 
+.img-openBank {
+  margin-top: 22.5%;
+  /* margin-left: 25px; */
+  /* margin-right: 50px; */
+  /* height: 350px; */
+  object-fit: cover;
+  object-position: 140% 65%;
+  width: 100%;
+  border-radius: 12px;
+}
+
 .img-placeholder-2 {
-  background-color: rgb(231, 226, 191);
+  /* background-color: rgb(231, 226, 191); */
   height: 500px;
   border-radius: 12px;
   width: 50%;
@@ -220,13 +243,30 @@ p {
 }
 
 .profile {
-  margin-top: -125px;
+  margin-top: -150px;
   margin-left: 75px;
   width: 250px;
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
 }
+
+.social {
+display: flex;
+flex-wrap: nowrap;
+margin-left: 350px;
+}
+
+.icon {
+height: 25px;
+width: 25px;
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-around;
+margin-top: 10px;
+padding: 10px 10px 10px 10px;
+}
+
 
 .bio {
   margin-bottom: 50px;

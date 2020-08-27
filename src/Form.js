@@ -48,7 +48,7 @@ export default Form;
 var textInput = {
     backgroundColor: "RGB(146, 139, 97)",
     borderStyle: "none",
-    border: "1px solid rgb(9, 8, 8)",
+    border: "2px solid rgb(9, 8, 8)",
     marginBottom: "10px",
     height: "50px",
     borderRadius: "12px",
@@ -60,7 +60,7 @@ var textInput = {
 var textarea = {
     backgroundColor: "RGB(146, 139, 97)",
     borderStyle: "none",
-    border: "1px solid rgb(9, 8, 8)",
+    border: "2px solid rgb(9, 8, 8)",
     marginBottom: "10px",
     height: "200px",
     borderRadius: "12px",
@@ -71,7 +71,7 @@ var textarea = {
 
 var button = {
     backgroundColor: "RGB(146, 139, 97)",
-    border: "1px solid rgb(9, 8, 8)",
+    border: "2px solid rgb(9, 8, 8)",
     color: "RGB(9, 8, 8)",
     height: "50px",
     borderRadius: "12px",

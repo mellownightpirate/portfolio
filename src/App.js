@@ -1,7 +1,14 @@
 import React from "react";
 import typewriter from "./typewriter";
+import rvc from "./rvc.png";
+import openBank from "./openBank.png";
 import Me from "./me.jpg";
 import Richmond from "./richmond.jpg";
+import twitter from "./twitter.png";
+import linkedin from "./linkedin.png";
+import github from "./github.png";
+import cv from "./cv.png";
+import Ahcv from "./Ahcv.pdf";
 import Form from "./Form";
 import logo from "./logo.svg";
 import "./App.css";
@@ -44,7 +51,7 @@ function App() {
         <div id="work" className="work">
           <div className="rvc">
             <div className="img-placeholder-1">
-              <img src="" />
+              <img className="img-rvc" src={rvc} />
             </div>
             <div className="textbox-1">
               <p>
@@ -69,6 +76,9 @@ function App() {
                   </li>
                   <li>Used Axios for API requests for CRUD operations.</li>
                 </ul>
+                <a href="https://github.com/Labs-EU-Flex">
+              <img className="icon" src={github} alt="" />
+            </a>
               </p>
             </div>
           </div>
@@ -99,10 +109,13 @@ function App() {
                     query-ability.
                   </li>
                 </ul>
+                <a href="https://github.com/mellownightpirate/banking-web-app-with-plaid-and-the-mern-stack">
+              <img className="icon" src={github} alt="" />
+            </a>
               </p>
             </div>
             <div className="img-placeholder-2">
-              <img src="" />
+              <img className="img-openBank" src={openBank} alt="" />
             </div>
           </div>
           <br />
@@ -115,11 +128,28 @@ function App() {
 
         <div id="about" className="about">
           <div>
-            <img className="cover" src={Richmond} />
+            <img className="cover" src={Richmond} alt="" />
+          </div>
+          <div className="social">
+            <a href="https://twitter.com/u_oI">
+              <img className="icon" src={twitter} alt="" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/amin-hasan/">
+              <img className="icon" src={linkedin} alt="" />
+            </a>
+
+            <a href="https://github.com/mellownightpirate">
+              <img className="icon" src={github} alt="" />
+            </a>
+            <a href={Ahcv} download="Amin-Hasan-CV">
+              <img className="icon" src={cv} alt="" />
+            </a>
           </div>
           <div>
-            <img className="profile" src={Me} />
+            <img className="profile" src={Me} alt="" />
           </div>
+
           <div className="bio">
             <h2>Hi there 👋</h2>
             <p>
